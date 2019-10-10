@@ -1,0 +1,5 @@
+#!/bin/sh
+dir=/wiseService
+WISE_CONF="${WISE_CONF:-$dir/etc/wise.ini}"
+cd $dir
+exec node wiseService.js -c $WISE_CONF
