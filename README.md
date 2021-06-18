@@ -10,7 +10,7 @@ Just run:
 
 ```$ ./build.sh```
 
-Or alternatively, if the script fails to detect moloch version number:
+Or alternatively, if the script fails to detect Arkime version number:
 
 ```$ ./build.sh latest```
 
@@ -49,5 +49,5 @@ $ docker run -p 31001:8081 --rm --name arkime-wise \
 Use ```docker logs``` to examine Wise console output, or just get inside the container with:
 
 ```
-$ docker exec -it moloch-wise sh
+$ docker exec -it arkime-wise sh
 ```
