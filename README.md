@@ -34,7 +34,7 @@ $ curl localhost:31001/ip/127.0.0.1
 {field: "tags", len: 8, value: "testing"}]
 
 ```
-The above result comes from a test Wise plugin generated inside the `Dockerfile`.
+The above result comes from a test Wise data source defined [here](https://github.com/mmta/arkime-wise/blob/b484c4a6f35e4954a61867144cec6009c2dbf22f/wise.ini#L67-L73).
 
 To actually use the image in a real environment, prepare a custom ```wise.ini``` config file (consult [Wise documentation](https://arkime.com/wise) on how to do so), and mount it like this to override the content of the default ```wise.ini``` file:
 
